@@ -50,8 +50,9 @@ a:visited {
     width: 250px;
 }
 .block__logo:hover {
-     box-shadow: inset 500px 0px 0px 0px #3644bd;
-     transition: box-shadow 500ms linear 1ms, text-shadow 500ms linear 1ms;
+    
+     box-shadow: inset 0px 0px 0px 50px #0d0aac;
+     transition: box-shadow 500ms linear 0ms, text-shadow 500ms linear 0ms;
      border-radius: 10px;
      cursor: pointer;
  }
