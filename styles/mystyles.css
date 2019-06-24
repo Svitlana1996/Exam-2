@@ -13,13 +13,13 @@ a:visited {
     color: white;
     text-decoration: none;
 }
-.block {
+.header {
     display: block;
     width: 100%;
     height: 100vh;
     position: relative;
 }
-.block__menu {
+.header__menu {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -46,10 +46,10 @@ a:visited {
 .container--position {
     position: relative;
 }
-.block__logo {
+.header__logo {
     width: 250px;
 }
-.block__logo:hover {
+.header__logo:hover {
     
      box-shadow: inset 0px 0px 0px 50px #0d0aac;
      transition: box-shadow 500ms linear 0ms, text-shadow 500ms linear 0ms;
@@ -57,7 +57,7 @@ a:visited {
      cursor: pointer;
  }
 
-.block__list {
+.header__list {
     display: flex;
     justify-content: space-around;
      color: white;
@@ -66,20 +66,20 @@ a:visited {
      width: 600px;
      margin: 0;
 }
-.block__item {
+.header__item {
     width: 150px;
     padding: 0;
     height:20px;
    
 }
-.block__item:hover {
+.header__item:hover {
      font-size: 19px;
      text-shadow: 2px 2px 2px #4F4F4F;
      transition: font-size 300ms linear 0ms, text-shadow 300ms linear 0ms;
      cursor: pointer;
     transition: all 0.3s ease-out;
 }
-.block__icon {
+.header__icon {
     display: flex;
     justify-content: space-around;
     width: 200px;
@@ -98,7 +98,7 @@ color: #1123c7;
 border-color: #1123c7;
 cursor: pointer;
 }
-.block__scroll {
+.header__scroll {
     width: 100%;
     height:40px;
     text-align: center;
@@ -196,6 +196,9 @@ button:before {
     text-transform: uppercase;
     margin: 0;
 }
+.slider-main--color {
+    color: #1123c7;
+}
 .text {
     font-size:18px;
     text-transform: uppercase;
@@ -208,6 +211,7 @@ button:before {
     display: block;
     padding: 80px 0 80px 0;
     margin: 0 auto;
+    overflow: hidden;
     }
 
 .block-2__item {
@@ -323,6 +327,7 @@ button:before {
     margin: 0 auto;
     padding: 130px 0 130px 0;
     background-image: url(../img/background-news.png);
+    background-color: #a5aab0;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -357,6 +362,15 @@ button:before {
     background-image: url(../img/picture-news-1.png);
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+}
+.content__circle {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.content__circle:hover {
+    transform: scale(1.1);
 }
 .content__head {
     text-transform: uppercase;
@@ -472,7 +486,8 @@ img {
     height: auto;
 }
 .ba-grid img:hover {
-    transform: scale(1.2);
+    opacity: 0.7;
+    cursor: pointer;
 }
 .ba-width-1-2 {
     width: 50%;
@@ -556,6 +571,7 @@ img {
     background-color: white;
     display: block;
     padding-top: 70px;
+    box-shadow: 0 0 20px#a5aab0;
 }
 .block-2__header--changed {
     padding-top: 20px;
