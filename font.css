@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'GothamBook';
+	src: url('./fonts/GothamBook.eot');
+	src: local('GothamBook'), url('./fontsmy/GothamBook/GothamBook.woff') format('woff'), url('./fontsmy/GothamBook/GothamBookItalic.ttf') format('truetype'), url('./fontsmy/GothamBook/GothamBook.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'gothambold1';
+	src: url('./fontsmy/gothambold/gothambold1.eot');
+	src: local('gothambold1'), url('./fontsmy/gothambold/gothambold1.woff') format('woff'), url('./fontsmy/gothambold/gothambold1.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'GothamMedium';
+	src: url('./fontsmy/GothamMedium/gotham-medium-webfont.eot');
+	src: local('GothamMedium'), url('./fontsmy/GothamMedium/gotham-medium-webfont.woff') format('woff'), url('./fontsmy/GothamMedium/GothamMediumItalic.ttf') format('truetype'), url('./fontsmy/GothamMedium/gotham-medium-webfont.ttf') format('truetype');
+
+}
+body {
+	font-family: 'GothamBook' !important;
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_10146">Text with this font applied</p> */
+/* .fontsforweb_fontid_10146 {
+	font-family: 'GothamBook' !important;
+} */
+
+/* Font downloaded from FontsForWeb.com */
