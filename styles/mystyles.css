@@ -30,6 +30,13 @@ a:visited {
     color: white;
     /* border: 1px solid black; */
 }
+.dot img {
+    border-radius: 50%;
+    margin-right: 6px;
+}
+.dot img:hover {
+    background-color: white;
+}
 .container-wrap {
     position: absolute;
     height: 100%;
